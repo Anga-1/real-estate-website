@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 48px;
+
+}
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+
+}
+
+
+.property-card { 
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+.property-list {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.property-card {
+ border: 1px solid #ccc;
+ padding: 20px;
+ width: 300px;
+}
