@@ -16,6 +16,8 @@
                     <button>Home</button></a>
                 <a href="properties.html">
                     <button>Properties</button></a>
+                <a href="#services.html">
+                    <button>Services</button></a>
                 <a href="about.html">
                     <button>About</button></a>
                 <a href="contact.html">
@@ -27,11 +29,11 @@
 
         <main>
         
-            <section >
-                <h1>Find your next home with Zola.</h1>
+            <section id="Hero">
+                <h1>[Realtor Value Proposition]</h1>
 
                 <p>
-                    Discover properties that fit your lifestyle and future.
+                    [A brief description of the realtor's value proposition, highlighting the unique benefits and services offered to clients.]
 
                 </p>
 
@@ -46,6 +48,175 @@
                 </form>
 
             </section>
+
+            <section id="services" class="services">
+
+                <div class="section-heading">
+                    <p>[REAL ESTATE SERVICES]</p>
+
+                    <h2>How I Can Help</h2>
+
+                    <p>
+                        [PLACEHOLDER DESCRIPTION OF THE SERVICES PROVIDED.]
+                    </p>
+                </div>
+
+                <div class="service-list">
+
+                    <article class="service-card">
+                        <h3>Buying</h3>
+
+                        <p>
+                            [PLACEHOLDER DESCRIPTION OF BUYING SERVICES.]
+                        </p>
+
+                        <a href="#">Learn More</a>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Selling</h3>
+
+                        <p>
+                            [PLACEHOLDER DESCRIPTION OF SELLING SERVICES.]
+                        </p>
+
+                        <a href="#">Learn More</a>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Renting</h3>
+
+                        <p>
+                            [PLACEHOLDER DESCRIPTION OF RENTAL SERVICES.]
+                        </p>
+
+                        <a href="#">Learn More</a>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Letting / Property Management</h3>
+
+                        <p>
+                            [PLACEHOLDER DESCRIPTION OF LETTING OR PROPERTY MANAGEMENT SERVICES.]
+                        </p>
+
+                        <a href="#">Learn More</a>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section class="why-work-with-me">
+
+                <div class="section-heading">
+                    <p>[WHY CHOOSE THIS REALTOR]</p>
+
+                    <h2>Why Work With Me</h2>
+
+                    <p>
+                        [PLACEHOLDER DESCRIPTION OF THE REALTOR'S VALUE
+                        AND APPROACH TO CLIENT SERVICE.]
+                    </p>
+                </div>
+
+                <div class="reasons-list">
+
+                    <article class="reason-card">
+                        <h3>Local Knowledge</h3>
+
+                        <p>
+                            [PLACEHOLDER DESCRIPTION OF LOCAL MARKET KNOWLEDGE.]
+                        </p>
+                    </article>
+
+                    <article class="reason-card">
+                        <h3>Personal Service</h3>
+
+                        <p>
+                            [PLACEHOLDER DESCRIPTION OF PERSONALIZED CLIENT SERVICE.]
+                        </p>
+                    </article>
+
+                    <article class="reason-card">
+                        <h3>Professional Guidance</h3>
+
+                        <p>
+                            [PLACEHOLDER DESCRIPTION OF PROFESSIONAL
+                            REAL ESTATE GUIDANCE.]
+                        </p>
+                    </article>
+
+                </div>
+
+            </section>
+
+            <section class="property-search">
+                <h2>Find a Property</h2>
+
+                <form id="property-search-form">
+
+                    <div class="search-field">
+                        <label for="listing-type">Looking to</label>
+
+                        <select id="listing-type" name="listing-type">
+                            <option value="">Buy or Rent</option>
+                            <option value="buy">Buy</option>
+                            <option value="rent">Rent</option>
+                        </select>
+                    </div>
+
+                    <div class="search-field">
+                        <label for="search-location">Location</label>
+
+                        <input
+                            type="text"
+                            id="search-location"
+                            name="location"
+                            placeholder="Enter a location"
+                        >
+                    </div>
+
+                    <div class="search-field">
+                        <label for="property-type">Property Type</label>
+
+                        <select id="property-type" name="property-type">
+                            <option value="">Any Property Type</option>
+                            <option value="house">House</option>
+                            <option value="apartment">Apartment</option>
+                            <option value="townhouse">Townhouse</option>
+                            <option value="land">Land</option>
+                        </select>
+                    </div>
+
+                    <div class="search-field">
+                        <label for="bedrooms">Bedrooms</label>
+
+                        <select id="bedrooms" name="bedrooms">
+                            <option value="">Any</option>
+                            <option value="1">1+</option>
+                            <option value="2">2+</option>
+                            <option value="3">3+</option>
+                            <option value="4">4+</option>
+                        </select>
+                    </div>
+
+                    <div class="search-field">
+                        <label for="price-range">Price Range</label>
+
+                        <select id="price-range" name="price-range">
+                            <option value="">Any Price</option>
+                            <option value="0-500000">Under R500,000</option>
+                            <option value="500000-1000000">R500,000 – R1,000,000</option>
+                            <option value="1000000-2000000">R1,000,000 – R2,000,000</option>
+                            <option value="2000000+">R2,000,000+</option>
+                        </select>
+                    </div>
+
+                    <button type="submit">Search Properties</button>
+
+                </form>
+        </section>
             
             <section id ="featured-properties">
 
@@ -101,9 +272,99 @@
                 </div>
 
             </section>
+
+            <section class="realtor-intro">
+                <div class="realtor-image">
+                    <img src="images/realtor-placeholder.jpg" alt="Realtor">
+                </div>
+
+                <div class="realtor-info">
+                    <p>[REALTOR / REAL ESTATE AGENT]</p>
+
+                    <h2>Meet [REALTOR NAME]</h2>
+
+                    <p>
+                        [SHORT INTRODUCTION ABOUT THE REALTOR, THEIR EXPERIENCE,
+                        AREAS SERVED AND APPROACH TO REAL ESTATE.]
+                    </p>
+
+                    <a href="about.html">Learn More About Me</a>
+                </div>
+            </section>
+
+            <section id="services" class="services">
+                <div class="section-heading">
+                    <p>[REAL ESTATE SERVICES]</p>
+                    <h2>How I Can Help</h2>
+                    <p>
+                        [PLACEHOLDER DESCRIPTION OF THE SERVICES PROVIDED.]
+                    </p>
+                </div>
+
+                <div class="service-list">
+
+                    <article class="service-card">
+                        <h3>Buying</h3>
+                        <p>
+                            [PLACEHOLDER DESCRIPTION OF BUYING SERVICES.]
+                        </p>
+                        <a href="#">Learn More</a>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Selling</h3>
+                        <p>
+                            [PLACEHOLDER DESCRIPTION OF SELLING SERVICES.]
+                        </p>
+                        <a href="#">Learn More</a>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Renting</h3>
+                        <p>
+                            [PLACEHOLDER DESCRIPTION OF RENTAL SERVICES.]
+                        </p>
+                        <a href="#">Learn More</a>
+                    </article>
+
+                    <article class="service-card">
+                        <h3>Letting / Property Management</h3>
+                        <p>
+                            [PLACEHOLDER DESCRIPTION OF LETTING OR PROPERTY
+                            MANAGEMENT SERVICES.]
+                        </p>
+                        <a href="#">Learn More</a>
+                    </article>
+
+                </div>
+            </section>
+
+        
                 
 
         </main>
+
+        <section class="contact-cta">
+
+                <div class="cta-content">
+
+                    <p>[READY TO MAKE YOUR NEXT MOVE?]</p>
+
+                    <h2>Let's Talk About Your Property Goals</h2>
+
+                    <p>
+                        [PLACEHOLDER DESCRIPTION ENCOURAGING THE VISITOR
+                        TO GET IN TOUCH.]
+                    </p>
+
+                    <div class="cta-actions">
+                        <a href="contact.html">Contact Me</a>
+                        <a href="#">Book a Viewing</a>
+                    </div>
+
+                </div>
+
+            </section>
 
         <footer>
             <p>@ 2026 Real Estate Website. All rights reserved.</p>
